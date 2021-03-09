@@ -13,8 +13,8 @@ import Listar from '../pages/Listar/Listar'
 const PagesRoot = () => (
   <Router>
     <Switch>
-      <Route path="/login" exact component={Login} />
-      <Route path="/" exact component={Home} />
+      <Route path="/" exact component={Login} />
+      <Route path="/home" exact component={Home} />
       <Route path="/register" exact component={Register} />
       <Route path="/atualizar" exact component={Atualizar} />
       <Route path="/Listar" exact component={Listar} />

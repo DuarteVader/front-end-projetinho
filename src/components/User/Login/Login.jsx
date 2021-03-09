@@ -18,6 +18,7 @@ const UserLogin = () => {
     if(response.data.token)
       console.log("Logado!")
       login(response.data.token)
+      
   }
 
 
@@ -37,7 +38,7 @@ const UserLogin = () => {
           theme="contained-green"
           className="user-login__submit-button"
           rounded
-          handleSubmit = {handleSubmit}
+          handleSubmit = {handleSubmit} href={'/Home'}
         >
           Entrar
         </UIButton>
