@@ -12,6 +12,7 @@ Iniciando
 $ git clone https://github.com/viduarte02/front-endPSEL2021.git
 $ yarn
 $ yarn dev
+
 Configuração
 Baixar o Backend
 Iniciar o servidor

@@ -20,6 +20,7 @@ const UserRegister = () => {
     if(response.data.token)
       console.log("Cadastrado!")
       login(response.data.token)
+      window.location.href = '/listar';
   }
 
 

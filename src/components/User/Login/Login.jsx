@@ -18,6 +18,7 @@ const UserLogin = () => {
     if(response.data.token)
       console.log("Logado!")
       login(response.data.token)
+      window.location.href = '/home';
       
   }
 
